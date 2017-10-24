@@ -26,8 +26,8 @@
                                 <RowDefinition></RowDefinition>
                                 <RowDefinition></RowDefinition>
                             </Grid.RowDefinitions>
-                            <Label Text="Matricula: " Grid.Column="0" Grid.Row="0"/>
-                            <Label Text="{Binding Matricula}" Grid.Column="1" Grid.Row="0"/>
+                            <Label Text="Matricula: " Grid.Column="0" Grid.Row="0" BackgroundColor="Yellow"/>
+                            <Label Text="{Binding Matricula}" Grid.Column="1" Grid.Row="0" BackgroundColor="Yellow"/>
                             <Label Text="Nombre: " Grid.Column="0" Grid.Row="1"/>
                             <Label Text="{Binding Nombre}" Grid.Column="1" Grid.Row="1"/>
                             <Label Text="Apellido: " Grid.Column="0" Grid.Row="2"/>
